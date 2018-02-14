@@ -1,0 +1,20 @@
+<p>
+  presidents works!
+</p>
+   <br>
+    <ul>
+        <li>{{names[0]}}</li>
+        <li>{{names[1]}}</li>
+        <li>{{names[2]}}</li>
+        <li>{{names[3]}}</li>
+        <li>{{names[4]}}</li>
+    </ul>
+    <br>
+    <ul>
+    <li *ngFor="let name of names ">{{name}} </li>      
+    </ul>
+    <br>
+
+    <li *ngFor="let pres of presidents">{{pres.name}} {{pres.term}}</li>
+
+
